@@ -20,6 +20,7 @@ public class TreeSetExamples {
     wordSet.add("giraffe");
     wordSet.add("bear");
     System.out.println(wordSet);
+    //since we are comparing by length, wolf is a duplicate since it is also 4 letters and treesets dont include duplicate
     wordSet.add("wolf");
     System.out.println(wordSet);
     wordSet.remove("giraffe");
